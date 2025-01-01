@@ -2,3 +2,5 @@
 SELECT name
 FROM Customer
 where referee_id != 2 OR referee_id IS NULL;  // to check null we use 'IS NULL' 
+
+// (here we cant only use 'refree_id != 2' bcoz sql by default doesnt print null values)
