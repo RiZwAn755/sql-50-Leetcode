@@ -4,3 +4,9 @@ FROM Customer
 where referee_id != 2 OR referee_id IS NULL;  // to check null we use 'IS NULL' 
 
 // (here we cant only use 'refree_id != 2' bcoz sql by default doesnt print null values)
+we can also use -
+
+// WHERE 
+  //   IFNULL(refree_id , 0) <> 2 ;
+ // (here IFNULL() is a function which takes two inputs 1st the column name  , and second the value to be set if colmn value is null)
+// <> is same as !=
