@@ -1,4 +1,8 @@
+let Employees is Left table and EmployeeUNI is Right table, kyuki hame left table me jo names ka column h wo pura chahiye and 
+sirf wahi unique_id(from right table) chahiye jo left table ki id se match ho .. isliye ham left join use karrhe hain
+
+
 SELECT EmployeeUNI.unique_id , Employees.name
 FROM Employees 
 LEFT JOIN EmployeeUNI 
-ON EmployeeUNI.id = Employees.id
+ON EmployeeUNI.id = Employees.id // on the basis of 
