@@ -1,3 +1,15 @@
+//is question me hame sales table  ki har  sale_id k liye product name , year aur price btani hai , and yha bhi hame sale table ki ar sale_id chahiyr 
+//isliye left join kareng ise product table k sath , on the basis that sale.product_id = product.product+id.
+
+
+//SELECT product_name , year , price 
+//FROM Sales
+//LEFT JOIN product
+//ON Product.product_id = Sales.sale_id;
+
+----------OR-------------
+
+
 SELECT product_name , year , price 
 FROM product
 RIGHT JOIN Sales
